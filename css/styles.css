@@ -230,10 +230,24 @@ list-style: none;
 }
 
 .advantage-item {
+    /* display: inline-flex; */
     width: 270px;
 }
 
-.advantage-item-one::before{
+.svg-possition{
+    display: flex;
+
+    height: 120px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+
+    margin-bottom: 30px;
+    align-items: center;
+    
+}
+
+
+/* .advantage-item-one::before{
     content: "";
     display: block;
     height: 120px;
@@ -279,7 +293,7 @@ list-style: none;
     background-position: center;
     margin-bottom: 30px;
     border-radius: 4px;
-}
+} */
 
 
 .advantage-list{
